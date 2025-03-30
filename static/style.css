@@ -1,0 +1,39 @@
+/* static/style.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #add8e6; /* Light blue default background */
+    transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+body.safe-bg {
+    background-color: #90ee90; /* Light green for safe */
+}
+
+body.blocked-bg {
+    background-color: #f08080; /* Light red for blocked */
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* ... (rest of your CSS) ... */
+
+.animation {
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}

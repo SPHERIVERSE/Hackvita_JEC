@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Moderator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Content Moderator</h1>
+        <textarea id="inputText" placeholder="Enter text to moderate..."></textarea>
+        <button id="moderateButton">Moderate</button>
+        <div id="results"></div>
+        <div id="tickAnimation" class="animation">✔️</div>
+        <div id="blockAnimation" class="animation">🚫</div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
