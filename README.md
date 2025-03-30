@@ -30,8 +30,8 @@ This project is a content moderation web application designed to automatically a
 1.  **Clone the Repository:**
 
     ```bash
-    git clone <your-repository-url>
-    cd <repository-directory>
+    git clone https://github.com/SPHERIVERSE/Hackvita_JEC.git
+    cd Hackvita_JEC
     ```
 
 2.  **Create a Virtual Environment:**
