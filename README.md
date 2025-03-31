@@ -1,3 +1,6 @@
+# Problem Statement 12: The Rise of Online Hate & Misinformation
+Scenario: Online platforms are filled with hate speech, cyberbullying, and offensive content, making digital spaces unsafe. Can AI and technology help automate content moderation while balancing free speech and censorship concerns?
+ 
 # Content Moderator - Hackathon Project
 
 ## Overview
