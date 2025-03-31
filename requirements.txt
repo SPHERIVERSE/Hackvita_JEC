@@ -2,3 +2,5 @@ Flask
 tensorflow
 tensorflow-hub
 requests
+transformers
+torch
