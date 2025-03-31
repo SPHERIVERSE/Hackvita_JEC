@@ -15,7 +15,7 @@ This project is a content moderation web application designed to automatically a
 * **Dynamic UI/UX:**
     * Displays moderation results with confidence percentages.
     * Provides visual feedback with tick (safe) and block (blocked) animations.
-    * Changes background color based on moderation status (green for safe, red for blocked).
+
 * **Flagging and Blocking:** Categorizes content as "safe," "flagged" (for human review), or "blocked" based on confidence thresholds.
 * **Multilingual support:** The toxicity model supports multiple languages.
 * **Easy to use:** Simple web based application.
