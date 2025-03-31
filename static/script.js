@@ -22,7 +22,7 @@ document.getElementById('moderateButton').addEventListener('click', function() {
             resultsHTML = `<p class="blocked">Content Blocked <button id="infoButton" class="details-button">i</button></p>`;
             document.getElementById('blockAnimation').style.display = 'block';
             document.body.classList.add('blocked-bg');
-            document.getElementById('blockSound').play();
+            document.getElementById('blockSound').play(); // Play blocked sound
             // Add crack animation here
         } else if (hate.status === 'flagged' || toxic.status === 'flagged') {
             resultsHTML = `<p class="flagged">Content Flagged for Review <button id="infoButton" class="details-button">i</button></p>`;
@@ -32,7 +32,7 @@ document.getElementById('moderateButton').addEventListener('click', function() {
             resultsHTML = `<p class="safe">Content Safe <button id="infoButton" class="details-button">i</button></p>`;
             document.getElementById('tickAnimation').style.display = 'block';
             document.body.classList.add('safe-bg');
-            document.getElementById('safeSound').play();
+            document.getElementById('safeSound').play(); // Play safe sound
             // Add glitter animation here
         }
 
