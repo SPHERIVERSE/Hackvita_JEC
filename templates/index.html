@@ -6,13 +6,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>Content Moderator</h1>
+        <h1 class="title">Content Moderator</h1>
+        <p class="ai-powered">AI Powered</p>
         <textarea id="inputText" placeholder="Enter text to moderate..."></textarea>
-        <button id="moderateButton">Moderate</button>
+        <div class="button-container">
+            <button id="moderateButton">Moderate</button>
+            <button id="retryButton">Retry</button>
+        </div>
         <div id="results"></div>
-        <div id="tickAnimation" class="animation">✔️</div>
-        <div id="blockAnimation" class="animation">🚫</div>
+        <div id="detailsPopup" class="details-popup"></div>
+        <div id="tickAnimation" class="animation"></div>
+        <div id="blockAnimation" class="animation"></div>
+        <audio id="safeSound" src="{{ url_for('static', filename='safe.mp3') }}"></audio>
+        <audio id="blockSound" src="{{ url_for('static', filename='block.mp3') }}"></audio>
+        <p id="quote" class="quote"></p>
     </div>
+    <div class="waves"></div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
